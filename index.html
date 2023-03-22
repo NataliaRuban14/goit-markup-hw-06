@@ -401,6 +401,24 @@
                     </ul>
                 </section>
             </div>
+            <div class="footer-input">
+                <section class="footer-soc-input">
+                    <h2 class="visually-hidden">footer-soc-input</h2>
+                    <p class="footer-input-title title">Subscribe</p>
+                    <form class="online-form">
+                        <div class="online-field">
+                            <input class="online-input" id="online-name" name="online-name" type="text">
+                            <label for="online-name" class="online-label">E-mail</label>
+                        </div>
+                        <button type="submit" class="btn online-btn">Subscribe <a href="" class="subscribe-link link">
+                                <svg class="subscribe-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-Frame-3"></use>
+                                </svg>
+                            </a>
+                        </button>
+                    </form>
+                </section>
+            </div>
         </div>
     </footer>
 
@@ -412,6 +430,54 @@
                     <use href="./images/icons.svg#icon-close-black-18dp"></use>
                 </svg>
             </button>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+                <div class="modal-field">
+                    <label class="input-text" for="user-name">Name</label>
+                    <div class="input-wrap">
+                        <input class="modal-input" name="user-name" id="user-name" type="text" required>
+                        <svg class="modal-soc-icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label class="input-text" for="user-tel">Phone</label>
+                    <div class="input-wrap">
+                        <input class="modal-input" name="user-tel" id="user-tel" type="tel" required>
+                        <svg class="modal-soc-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label class="input-text" for="user-email">Email</label>
+                    <div class="input-wrap">
+                        <input class="modal-input" name="user-email" id="user-email" type="email" required>
+                        <svg class="modal-soc-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label class="input-text" for="user-text">Comment</label>
+                    <textarea id="user-text" name="input-text" class="modal-message"
+                        placeholder="Text input"></textarea>
+                </div>
+                <div class="modal-check">
+                    <input type="checkbox" id="policy" value="true" class="input-check visually-hidden">
+                    <label for="policy" class="check-text">
+                        <span>
+                            <svg class="check-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of the
+                        <a href="" class="policy-link">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn modal-btn">Send</button>
+            </form>
         </div>
     </div>
 
