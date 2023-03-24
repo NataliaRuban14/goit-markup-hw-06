@@ -532,10 +532,6 @@
 } 
 
 .footer-inner {
-
-}
-
-.footer-info {
     padding-top: 100px;
     padding-bottom: 100px;
     width: 264px;
@@ -580,10 +576,6 @@
 }
 
 .footer-socials {
-    
-}
-
-.footer-soc {
     padding-top: 100px;
     padding-bottom: 130px;
     width: 208px;
@@ -591,7 +583,7 @@
     margin-right: 80px;
 }
 
-/* outline: 2px solid tomato; */
+ /* outline: 2px solid tomato; */
 
 .footer-soc-title {
     margin-top: 0;
@@ -640,15 +632,12 @@
 }
 
 .footer-input {
-
-}
-
-.footer-soc-input {
     padding-top: 100px;
     padding-bottom: 130px;
     width: 453px;
     height: auto;
 }
+
 
 .footer-mail-input {
 
@@ -845,13 +834,9 @@
     text-align: center;
 }
 
-.modal-field {
-    margin-bottom: 8px;
-
-}
-
 .input-wrap {
     position: relative;
+    margin-bottom: 8px;
 
 }
 
